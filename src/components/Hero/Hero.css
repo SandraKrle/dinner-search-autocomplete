@@ -1,0 +1,45 @@
+.hero {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  justify-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./../../assets/food-bg.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  align-self: center;
+  margin: 12px 0;
+  font-size: calc(28px + 2vmin);
+  color: white;
+}
+
+.hero-text div:first-child {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.hero-text div:last-child {
+  display: inline-block;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+}
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+  .hero-content {
+    width: 80%;
+  }
+
+  .hero-text div:first-child {
+    display: block;
+  }
+}

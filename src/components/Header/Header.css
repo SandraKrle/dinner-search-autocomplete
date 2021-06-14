@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0;
+  font-family: "Handlee", cursive;
+  font-size: calc(16px + 2vmin);
+  background-color: #282c34;
+  color: white;
+}
+
+.header > div {
+  margin-left: 12px;
+}

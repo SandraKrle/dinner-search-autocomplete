@@ -1,0 +1,9 @@
+input {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: calc(4px + 2vmin);
+  padding: 12px 0 12px 12px;
+  box-shadow: inset 0px 0px 1px 1px #3c3c3c59;
+  outline: none;
+  border: none;
+}

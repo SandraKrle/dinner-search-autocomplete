@@ -1,0 +1,34 @@
+.search-results {
+  position: absolute;
+  min-width: 100%;
+  background-color: white;
+  overflow: auto;
+}
+
+.search-results.open {
+  max-height: 200px;
+  outline: 1px solid gray;
+  box-shadow: 4px 6px 4px 0px rgba(95, 95, 95, 0.48);
+}
+
+.search-results-item {
+  padding: 4px 0 4px 12px;
+  text-align: left;
+}
+
+.search-results-bold {
+  font-weight: 900;
+}
+
+.search-results-item:hover {
+  outline: 1px solid #e6e6e6;
+  cursor: pointer;
+}
+
+.search-results-empty {
+  position: absolute;
+  width: 100%;
+  padding: 12px 0;
+  font-size: calc(6px + 2vmin);
+  background-color: white;
+}

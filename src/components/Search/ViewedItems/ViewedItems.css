@@ -1,0 +1,18 @@
+.viewed-items {
+  font-size: calc(6px + 2vmin);
+  text-align: left;
+  color: white;
+}
+
+.viewed-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid #ffffff47;
+  background-color: #47483b8f;
+  color: white;
+}
+
+.viewed-item:last-of-type {
+  border-bottom: none;
+}
